@@ -1202,7 +1202,7 @@
             <mxPoint x="160" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nl7XCU_f5u8KW35ryktV-42" value="is_output_mode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nl7XCU_f5u8KW35ryktV-42" value="is_output_mode" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="220" y="520" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Nl7XCU_f5u8KW35ryktV-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.061;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nl7XCU_f5u8KW35ryktV-39" target="Nl7XCU_f5u8KW35ryktV-42">
