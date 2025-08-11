@@ -798,6 +798,15 @@
             <mxPoint x="414" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ePZVjH8i6vtP3Gq4p5_U-78" value="&lt;b&gt;静态编译&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePZVjH8i6vtP3Gq4p5_U-79" value="&lt;b&gt;后门写入+CPU自动取址&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="410" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePZVjH8i6vtP3Gq4p5_U-80" value="Q1: CPU怎么自动取址的？&lt;div&gt;Q2:地址与数据存储位置怎么定义的，怎么修改，对性能影响多少？&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="460" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
