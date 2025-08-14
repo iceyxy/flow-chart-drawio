@@ -1147,8 +1147,8 @@
         <mxCell id="_Z4pC35QqTjkhpNTb_C4-44" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;无条件帧:&amp;nbsp;从机立即响应&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;触发帧:&amp;nbsp;从机选择性响应，若多从机响应冲突，重新发布子无条件帧&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;偶发帧：主机偶尔发&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;诊断帧：主机用于配置、识别、诊断&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;保留帧：&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="120" y="540" width="380" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="_Z4pC35QqTjkhpNTb_C4-45" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;应用示例：主机发送帧0x30广播查询车窗状态，正常情况下无从机响应。&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;当多个从机同时响应时，会产生错误中断。随后依次发送无条件帧0x31/0x32依次查询。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="120" y="650" width="490" height="50" as="geometry" />
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-45" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;应用示例：主机发送帧0x30广播查询车窗状态，正常情况下无从机响应。&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;当多个从机同时响应时，会产生错误中断。随后依次发送无条件帧0x31/0x32依次查询。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;涉及功能：错误中断、ID过滤与屏蔽&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="490" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
