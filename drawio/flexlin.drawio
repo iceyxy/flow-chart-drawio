@@ -868,10 +868,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8lxXMXMr6JdUpgX6-Mn3" name="第 2 页">
-    <mxGraphModel dx="1188" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="328" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="750" width="180" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="_Z4pC35QqTjkhpNTb_C4-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="120" y="450" width="240" height="50" as="geometry" />
         </mxCell>
@@ -1149,6 +1152,39 @@
         </mxCell>
         <mxCell id="_Z4pC35QqTjkhpNTb_C4-45" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;应用示例：主机发送帧0x30广播查询车窗状态，正常情况下无从机响应。&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;当多个从机同时响应时，会产生错误中断。随后依次发送无条件帧0x31/0x32依次查询。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;涉及功能：错误中断、ID过滤与屏蔽&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="120" y="640" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-47" value="Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-48" value="TL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="120" y="810" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-49" value="Signal&amp;nbsp;interaction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="810" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-50" value="Frame&amp;nbsp;handler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="120" y="850" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-52" value="LIN&amp;nbsp;bus&amp;nbsp;line" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="890" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="800" width="180" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="840" width="180" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-55" value="API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="787" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-56" value="Protocol" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="35" y="827" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-57" value="Physical" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="35" y="870" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Z4pC35QqTjkhpNTb_C4-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="890" width="180" height="4" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
