@@ -339,6 +339,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UNcK4U24kkvu72K8W5xC-81" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="447" y="800" width="283" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UNcK4U24kkvu72K8W5xC-80" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="160" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="UNcK4U24kkvu72K8W5xC-58" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="603" y="629.5" width="174" height="110" as="geometry" />
         </mxCell>
@@ -768,14 +774,11 @@
         <mxCell id="UNcK4U24kkvu72K8W5xC-41" value="Reg Seuqnece Pool" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="428" y="635" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UNcK4U24kkvu72K8W5xC-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNcK4U24kkvu72K8W5xC-42" target="UNcK4U24kkvu72K8W5xC-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="UNcK4U24kkvu72K8W5xC-42" value="IR Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="304" y="1020" width="116" height="20" as="geometry" />
+          <mxGeometry x="305" y="1010" width="116" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UNcK4U24kkvu72K8W5xC-43" value="AHB Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="596" y="757.5" width="200" height="20" as="geometry" />
+          <mxGeometry x="594" y="750" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UNcK4U24kkvu72K8W5xC-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNcK4U24kkvu72K8W5xC-48" target="UNcK4U24kkvu72K8W5xC-49">
           <mxGeometry relative="1" as="geometry" />
@@ -796,22 +799,10 @@
           <mxGeometry x="467" y="810" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UNcK4U24kkvu72K8W5xC-53" value="DMA Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="469" y="1020" width="268" height="20" as="geometry" />
+          <mxGeometry x="454" y="1011" width="268" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UNcK4U24kkvu72K8W5xC-54" value="DMA Driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="619" y="954" width="94" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="UNcK4U24kkvu72K8W5xC-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="UNcK4U24kkvu72K8W5xC-48">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="527" y="1020" as="sourcePoint" />
-            <mxPoint x="517" y="970" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UNcK4U24kkvu72K8W5xC-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="665.8199999999999" y="1020" as="sourcePoint" />
-            <mxPoint x="665.8199999999999" y="994" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="UNcK4U24kkvu72K8W5xC-59" value="AHB Agent" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="648" y="627.5" width="90" height="30" as="geometry" />
@@ -839,7 +830,7 @@
             <mxPoint x="677" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UNcK4U24kkvu72K8W5xC-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.457;exitY=0.103;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UNcK4U24kkvu72K8W5xC-31">
+        <mxCell id="UNcK4U24kkvu72K8W5xC-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.457;exitY=0.103;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="UNcK4U24kkvu72K8W5xC-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="357" y="810" as="sourcePoint" />
             <mxPoint x="507" y="600" as="targetPoint" />
@@ -855,7 +846,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UNcK4U24kkvu72K8W5xC-65" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="UNcK4U24kkvu72K8W5xC-51">
+        <mxCell id="UNcK4U24kkvu72K8W5xC-65" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="UNcK4U24kkvu72K8W5xC-51">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="337" y="810" as="sourcePoint" />
             <mxPoint x="357" y="780" as="targetPoint" />
@@ -884,6 +875,12 @@
         </mxCell>
         <mxCell id="UNcK4U24kkvu72K8W5xC-77" value="&lt;div align=&quot;left&quot;&gt;1. cfg_sequence对DUT进行配置。同步data agent cfg参数&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. 配置IR/DMA sequence，后期由IR monitor自动调用&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. 启动data seq，发送若干数据&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.data agent subscriber捕获期望数据&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;5.实际数据在参考模型中，从总线adapter获得&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="36" y="895" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UNcK4U24kkvu72K8W5xC-82" value="DMA Agent" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="636" y="811" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UNcK4U24kkvu72K8W5xC-84" value="IR Agent" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="371" y="910" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
