@@ -335,7 +335,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iYLO-TkoYX4EtcSH__Pb" name="环境架构与Tr">
-    <mxGraphModel dx="1029" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="850" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -882,6 +882,11 @@
         <mxCell id="UNcK4U24kkvu72K8W5xC-84" value="IR Agent" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="371" y="910" width="70" height="30" as="geometry" />
         </mxCell>
+        <UserObject label="参考链接：UVM中的中断sequence" link="https://blog.csdn.net/hh199203/article/details/127013795" linkTarget="_blank" id="ORhd3CFXKQETKv5-X7o8-1">
+          <mxCell style="text;whiteSpace=wrap;fontColor=#0000FF;" vertex="1" parent="1">
+            <mxGeometry x="603" y="1100" width="190" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
