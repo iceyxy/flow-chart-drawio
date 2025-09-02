@@ -882,6 +882,9 @@
         <mxCell id="UNcK4U24kkvu72K8W5xC-74" value="data seq" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="14" y="650" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="UNcK4U24kkvu72K8W5xC-77" value="&lt;div align=&quot;left&quot;&gt;1. cfg_sequence对DUT进行配置。同步data agent cfg参数&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. 配置IR/DMA sequence，后期由IR monitor自动调用&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. 启动data seq，发送若干数据&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.data agent subscriber捕获期望数据&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;5.实际数据在参考模型中，从总线adapter获得&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="36" y="895" width="230" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
