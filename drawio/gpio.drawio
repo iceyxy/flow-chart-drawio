@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.7" pages="8">
   <diagram name="GPIO框图" id="-1CRMZ3ilZ53mN010_KL">
-    <mxGraphModel dx="555" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -452,7 +452,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="I9xhGMOGBoX5YpjdxLqz" name="紧急停止">
-    <mxGraphModel dx="937" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -732,7 +732,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iZmdgM76vImW2ZLeBAdX" name="特殊IO口">
-    <mxGraphModel dx="703" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1081,7 +1081,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8P4YuzEoDAqMRnGHRkAC" name="GPIO基础输入输出模式">
-    <mxGraphModel dx="592" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1793,7 +1793,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dP5O9QaTy2kp_RP9sJf1" name="AON域的PORT口">
-    <mxGraphModel dx="896" dy="331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1075" dy="331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1818,17 +1818,17 @@
         <mxCell id="hsTkrgBBpVVAQa8zhF3U-11" value="特殊地，&lt;div&gt;P33.8 输入SCU_EMGSTOP_PORT_A&lt;/div&gt;&lt;div&gt;P33.12 输入PCU_PIN_BWKP&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="230" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iZOu8YKruGwhIF_nl03c-1" value="&lt;div&gt;1. RUN模式下，CPU正常控制P33/P34&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;RUN模式下，SCR接管控制P33/P34，切换正常&lt;/div&gt;&lt;div&gt;3. Standby模式，SCR接管控制P33/P34&lt;/div&gt;&lt;div&gt;4. Port33/34与外设各信号连接性&lt;/div&gt;&lt;div&gt;5. 紧急停止输入(AON域)&lt;/div&gt;&lt;div&gt;6. VERSE+VEXT &amp;amp; (Only VERSE)的两种电源场景，Standy模式下，基于PAD的唤醒&lt;/div&gt;&lt;div&gt;7. 各复位状态IO状态检查&amp;amp;紧急停止安全状态检查&lt;/div&gt;&lt;div&gt;8. 电源隔离性，VERSE/VEXT掉电检查IO状态&lt;/div&gt;&lt;div&gt;9. Standby/Sleep模式下，这些外设是否有特殊操作？&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="200" width="300" height="30" as="geometry" />
+        <mxCell id="iZOu8YKruGwhIF_nl03c-1" value="&lt;div&gt;1. RUN模式下，CPU正常控制P33/P34&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;RUN模式下，SCR接管控制P33/P34，切换正常(SCR)&lt;/div&gt;&lt;div&gt;3. Standby模式，SCR接管控制P33/P34(SCR)&lt;/div&gt;&lt;div&gt;4. Port33/34与外设各信号连接性(TOP)&lt;/div&gt;&lt;div&gt;5. 紧急停止输入(AON域,SAFC功能点)&lt;/div&gt;&lt;div&gt;6. VERSE+VEXT &amp;amp; (Only VERSE)的两种电源场景，Standy模式下，基于PAD的唤醒，IO状态检查，进/出/掉电，TOP电源相关场景做，各复位状态IO状态检查（TOP）&lt;/div&gt;&lt;div&gt;7. 紧急停止安全状态检查&lt;/div&gt;&lt;div&gt;8. 电源隔离性，VERSE/VEXT掉电检查IO状态（同6，TOP）&lt;/div&gt;&lt;div&gt;9. Standby/Sleep模式下，这些外设是否有特殊操作？（Sleep 各IP对齐是否有特殊操作）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sGGUlhQmcvP-912KdtzB-1" value="不是P33+P34全部Pin" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="290" width="140" height="30" as="geometry" />
+          <mxGeometry x="630" y="120" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="DOLi32WpzFnDWy76Wmcd" name="GPIO与SCR">
-    <mxGraphModel dx="937" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1901,7 +1901,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gPxIq66ufSEXRBncdWve" name="GPIO唤醒">
-    <mxGraphModel dx="508" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
