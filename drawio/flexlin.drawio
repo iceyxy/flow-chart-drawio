@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="29.2.4" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="29.2.4" pages="5">
   <diagram name="协议规格" id="K6bxP3eLT8ISsSR_P171">
-    <mxGraphModel dx="1138" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -872,6 +872,9 @@
         </mxCell>
         <mxCell id="tmcSamWEv9Mv9nF2bPQI-1" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; orphans: 4; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;Local Interconnect Network&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="160" x="630" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="NAXNEyRoY_3QEaLeDtVp-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;多个LIN节点包括TX&amp;amp;RX在穿过PAD侧连接到同一个LIN 总线&lt;/div&gt;&lt;div&gt;帧数据流：&lt;/div&gt;&lt;div&gt;CPU/DMA配置寄存器-&amp;gt;并行数据转串流-&amp;gt;IO TX&lt;/div&gt;&lt;div&gt;IO RX -&amp;gt; 串行bit流转数据 -&amp;gt; 读出结果寄存器&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="370" x="222" y="475" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2163,6 +2166,111 @@
         </mxCell>
         <mxCell id="k4s1CUXVvU7xJMlqA_jR-72" value="go to sleep命令是主机发送8个数据，第一个是0剩余是0xFF，从机自行控制响应，属于软件行为" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="510" width="540" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CVsz1eVDzt6bTWz2JTN5" name="第 5 页">
+    <mxGraphModel dx="504" dy="303" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Config&lt;/font&gt;" vertex="1">
+          <mxGeometry height="255" width="320" x="240" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-15" edge="1" parent="1" source="jWEsQe3gnAzAR-7zRxKs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jWEsQe3gnAzAR-7zRxKs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="CHI" vertex="1">
+          <mxGeometry height="200" width="80" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-3" parent="1" style="whiteSpace=wrap;html=1;" value="HIF" vertex="1">
+          <mxGeometry height="20" width="60" x="290" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-4" parent="1" style="whiteSpace=wrap;html=1;" value="SEARCH" vertex="1">
+          <mxGeometry height="20" width="60" x="290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-5" parent="1" style="whiteSpace=wrap;html=1;" value="BCU" vertex="1">
+          <mxGeometry height="20" width="60" x="290" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-6" parent="1" style="whiteSpace=wrap;html=1;" value="LUT" vertex="1">
+          <mxGeometry height="20" width="60" x="290" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="PE" vertex="1">
+          <mxGeometry height="200" width="80" x="440" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-9" parent="1" style="whiteSpace=wrap;html=1;" value="SEQ" vertex="1">
+          <mxGeometry height="20" width="60" x="450" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-10" parent="1" style="whiteSpace=wrap;html=1;" value="TxA" vertex="1">
+          <mxGeometry height="20" width="60" x="450" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-11" parent="1" style="whiteSpace=wrap;html=1;" value="RxA" vertex="1">
+          <mxGeometry height="20" width="60" x="450" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-12" parent="1" style="whiteSpace=wrap;html=1;" value="TCU" vertex="1">
+          <mxGeometry height="20" width="60" x="450" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-16" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="299.71999999999997" as="sourcePoint" />
+            <mxPoint x="610" y="299.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IO PAD" vertex="1">
+          <mxGeometry height="40" width="90" x="610" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-21" edge="1" parent="1" source="jWEsQe3gnAzAR-7zRxKs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="jWEsQe3gnAzAR-7zRxKs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RAM" vertex="1">
+          <mxGeometry height="40" width="50" x="295" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-22" edge="1" parent="1" source="jWEsQe3gnAzAR-7zRxKs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="jWEsQe3gnAzAR-7zRxKs-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="430" />
+              <mxPoint x="460" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RAM" vertex="1">
+          <mxGeometry height="40" width="50" x="420" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-23" edge="1" parent="1" source="jWEsQe3gnAzAR-7zRxKs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="jWEsQe3gnAzAR-7zRxKs-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="430" />
+              <mxPoint x="500" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ROM" vertex="1">
+          <mxGeometry height="40" width="50" x="490" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Host&lt;/div&gt;&lt;div&gt;CPU&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-25" edge="1" parent="1" source="jWEsQe3gnAzAR-7zRxKs-24" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.026;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;" target="jWEsQe3gnAzAR-7zRxKs-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;FlexRay&lt;/div&gt;&lt;div&gt;Memory&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="120" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-27" edge="1" parent="1" source="jWEsQe3gnAzAR-7zRxKs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.024;entryY=0.853;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="jWEsQe3gnAzAR-7zRxKs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FlexRay" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-29" parent="1" style="text;whiteSpace=wrap;html=1;" value="ROM 中存储 FlexRay 协议逻辑，程序文件由IP 厂商提供" vertex="1">
+          <mxGeometry height="40" width="370" x="180" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="jWEsQe3gnAzAR-7zRxKs-30" parent="1" style="text;whiteSpace=wrap;html=1;" value="FlexRay mem 将 Message RAM/Configuration RAM 映射到 HOST CPU 的地址总线，HOST CPU 可像访问自身内存一样读写 FlexRay 控制器的存储区（无需专用通信协议）；" vertex="1">
+          <mxGeometry height="50" width="560" x="180" y="535" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
