@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="29.2.9" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="29.2.9" pages="10">
   <diagram name="规格梳理" id="FtrDkGMrHZfgMd34NGMi">
     <mxGraphModel dx="1301" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3752,7 +3752,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gc5x5uT3wY89dZw_ZEBv" name="第 9 页">
-    <mxGraphModel dx="882" dy="496" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1470" dy="827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3892,6 +3892,322 @@
         <mxCell id="RyHnmOIIFrYckbB-RetB-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sign" vertex="1">
           <mxGeometry height="30" width="60" x="194" y="150" as="geometry" />
         </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-211" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" value="CLK" vertex="1">
+          <mxGeometry height="30" width="80" x="47" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-212" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2196F3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="519" />
+              <mxPoint x="87" y="489" />
+              <mxPoint x="102" y="489" />
+              <mxPoint x="102" y="519" />
+              <mxPoint x="117" y="519" />
+              <mxPoint x="117" y="489" />
+              <mxPoint x="132" y="489" />
+              <mxPoint x="132" y="519" />
+              <mxPoint x="147" y="519" />
+              <mxPoint x="147" y="489" />
+              <mxPoint x="162" y="489" />
+              <mxPoint x="162" y="519" />
+              <mxPoint x="177" y="519" />
+              <mxPoint x="177" y="489" />
+              <mxPoint x="192" y="489" />
+              <mxPoint x="192" y="519" />
+              <mxPoint x="207" y="519" />
+              <mxPoint x="207" y="489" />
+              <mxPoint x="222" y="489" />
+              <mxPoint x="222" y="519" />
+              <mxPoint x="237" y="519" />
+              <mxPoint x="237" y="489" />
+              <mxPoint x="252" y="489" />
+              <mxPoint x="252" y="519" />
+              <mxPoint x="267" y="519" />
+              <mxPoint x="267" y="489" />
+              <mxPoint x="282" y="489" />
+              <mxPoint x="282" y="519" />
+              <mxPoint x="297" y="519" />
+              <mxPoint x="297" y="489" />
+              <mxPoint x="312" y="489" />
+              <mxPoint x="312" y="519" />
+              <mxPoint x="327" y="519" />
+              <mxPoint x="327" y="489" />
+              <mxPoint x="342" y="489" />
+              <mxPoint x="342" y="519" />
+              <mxPoint x="357" y="519" />
+              <mxPoint x="357" y="489" />
+              <mxPoint x="372" y="489" />
+              <mxPoint x="372" y="519" />
+              <mxPoint x="387" y="519" />
+              <mxPoint x="387" y="489" />
+              <mxPoint x="402" y="489" />
+              <mxPoint x="402" y="519" />
+              <mxPoint x="417" y="519" />
+              <mxPoint x="417" y="489" />
+              <mxPoint x="432" y="489" />
+              <mxPoint x="432" y="519" />
+              <mxPoint x="447" y="519" />
+              <mxPoint x="447" y="489" />
+              <mxPoint x="462" y="489" />
+              <mxPoint x="462" y="519" />
+              <mxPoint x="477" y="519" />
+              <mxPoint x="477" y="489" />
+              <mxPoint x="492" y="489" />
+              <mxPoint x="492" y="519" />
+              <mxPoint x="507" y="519" />
+              <mxPoint x="507" y="489" />
+              <mxPoint x="522" y="489" />
+              <mxPoint x="522" y="519" />
+              <mxPoint x="537" y="519" />
+              <mxPoint x="537" y="489" />
+              <mxPoint x="552" y="489" />
+              <mxPoint x="552" y="519" />
+              <mxPoint x="567" y="519" />
+              <mxPoint x="567" y="489" />
+              <mxPoint x="582" y="489" />
+              <mxPoint x="582" y="519" />
+              <mxPoint x="597" y="519" />
+              <mxPoint x="597" y="489" />
+              <mxPoint x="612" y="489" />
+              <mxPoint x="612" y="519" />
+              <mxPoint x="627" y="519" />
+              <mxPoint x="627" y="489" />
+              <mxPoint x="642" y="489" />
+              <mxPoint x="642" y="519" />
+              <mxPoint x="657" y="519" />
+              <mxPoint x="657" y="489" />
+              <mxPoint x="672" y="489" />
+              <mxPoint x="672" y="519" />
+            </Array>
+            <mxPoint x="87" y="519" as="sourcePoint" />
+            <mxPoint x="672" y="519" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-234" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;dashPattern=5 3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="87" y="504" as="sourcePoint" />
+            <mxPoint x="672" y="504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-255" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2196F3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="541" />
+              <mxPoint x="240" y="541" />
+              <mxPoint x="240" y="571" />
+              <mxPoint x="360" y="571" />
+              <mxPoint x="360" y="541" />
+              <mxPoint x="480" y="541" />
+              <mxPoint x="480" y="571" />
+              <mxPoint x="600" y="571" />
+              <mxPoint x="600" y="541" />
+            </Array>
+            <mxPoint x="120" y="569" as="sourcePoint" />
+            <mxPoint x="677" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-261" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2196F3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="624" />
+              <mxPoint x="207" y="594" />
+              <mxPoint x="327" y="594" />
+              <mxPoint x="327" y="624" />
+              <mxPoint x="447" y="624" />
+              <mxPoint x="447" y="594" />
+              <mxPoint x="567" y="594" />
+              <mxPoint x="567" y="624" />
+            </Array>
+            <mxPoint x="87" y="624" as="sourcePoint" />
+            <mxPoint x="685" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-262" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" value="CLK" vertex="1">
+          <mxGeometry height="30" width="80" x="55" y="723" as="geometry" />
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-263" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2196F3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="95" y="783" />
+              <mxPoint x="95" y="753" />
+              <mxPoint x="110" y="753" />
+              <mxPoint x="110" y="783" />
+              <mxPoint x="125" y="783" />
+              <mxPoint x="125" y="753" />
+              <mxPoint x="140" y="753" />
+              <mxPoint x="140" y="783" />
+              <mxPoint x="155" y="783" />
+              <mxPoint x="155" y="753" />
+              <mxPoint x="170" y="753" />
+              <mxPoint x="170" y="783" />
+              <mxPoint x="185" y="783" />
+              <mxPoint x="185" y="753" />
+              <mxPoint x="200" y="753" />
+              <mxPoint x="200" y="783" />
+              <mxPoint x="215" y="783" />
+              <mxPoint x="215" y="753" />
+              <mxPoint x="230" y="753" />
+              <mxPoint x="230" y="783" />
+              <mxPoint x="245" y="783" />
+              <mxPoint x="245" y="753" />
+              <mxPoint x="260" y="753" />
+              <mxPoint x="260" y="783" />
+              <mxPoint x="275" y="783" />
+              <mxPoint x="275" y="753" />
+              <mxPoint x="290" y="753" />
+              <mxPoint x="290" y="783" />
+              <mxPoint x="305" y="783" />
+              <mxPoint x="305" y="753" />
+              <mxPoint x="320" y="753" />
+              <mxPoint x="320" y="783" />
+              <mxPoint x="335" y="783" />
+              <mxPoint x="335" y="753" />
+              <mxPoint x="350" y="753" />
+              <mxPoint x="350" y="783" />
+              <mxPoint x="365" y="783" />
+              <mxPoint x="365" y="753" />
+              <mxPoint x="380" y="753" />
+              <mxPoint x="380" y="783" />
+              <mxPoint x="395" y="783" />
+              <mxPoint x="395" y="753" />
+              <mxPoint x="410" y="753" />
+              <mxPoint x="410" y="783" />
+              <mxPoint x="425" y="783" />
+              <mxPoint x="425" y="753" />
+              <mxPoint x="440" y="753" />
+              <mxPoint x="440" y="783" />
+              <mxPoint x="455" y="783" />
+              <mxPoint x="455" y="753" />
+              <mxPoint x="470" y="753" />
+              <mxPoint x="470" y="783" />
+              <mxPoint x="485" y="783" />
+              <mxPoint x="485" y="753" />
+              <mxPoint x="500" y="753" />
+              <mxPoint x="500" y="783" />
+              <mxPoint x="515" y="783" />
+              <mxPoint x="515" y="753" />
+              <mxPoint x="530" y="753" />
+              <mxPoint x="530" y="783" />
+              <mxPoint x="545" y="783" />
+              <mxPoint x="545" y="753" />
+              <mxPoint x="560" y="753" />
+              <mxPoint x="560" y="783" />
+              <mxPoint x="575" y="783" />
+              <mxPoint x="575" y="753" />
+              <mxPoint x="590" y="753" />
+              <mxPoint x="590" y="783" />
+              <mxPoint x="605" y="783" />
+              <mxPoint x="605" y="753" />
+              <mxPoint x="620" y="753" />
+              <mxPoint x="620" y="783" />
+              <mxPoint x="635" y="783" />
+              <mxPoint x="635" y="753" />
+              <mxPoint x="650" y="753" />
+              <mxPoint x="650" y="783" />
+              <mxPoint x="665" y="783" />
+              <mxPoint x="665" y="753" />
+              <mxPoint x="680" y="753" />
+              <mxPoint x="680" y="783" />
+            </Array>
+            <mxPoint x="95" y="783" as="sourcePoint" />
+            <mxPoint x="680" y="783" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-264" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;dashPattern=5 3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="768" as="sourcePoint" />
+            <mxPoint x="680" y="768" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-265" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2196F3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="186" y="966.05" />
+              <mxPoint x="186" y="936.05" />
+              <mxPoint x="306" y="936.05" />
+              <mxPoint x="306" y="966.05" />
+              <mxPoint x="426" y="966.05" />
+              <mxPoint x="426" y="936.05" />
+              <mxPoint x="546" y="936.05" />
+              <mxPoint x="546" y="966.05" />
+              <mxPoint x="666" y="966.05" />
+              <mxPoint x="666" y="936.05" />
+              <mxPoint x="786" y="936.05" />
+              <mxPoint x="786" y="966.05" />
+            </Array>
+            <mxPoint x="80" y="962" as="sourcePoint" />
+            <mxPoint x="786" y="966.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-266" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2196F3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="905" />
+              <mxPoint x="187" y="875" />
+              <mxPoint x="307" y="875" />
+              <mxPoint x="307" y="905" />
+              <mxPoint x="427" y="905" />
+              <mxPoint x="427" y="875" />
+              <mxPoint x="547" y="875" />
+              <mxPoint x="547" y="905" />
+              <mxPoint x="667" y="905" />
+              <mxPoint x="667" y="875" />
+              <mxPoint x="787" y="875" />
+              <mxPoint x="787" y="905" />
+            </Array>
+            <mxPoint x="80" y="907" as="sourcePoint" />
+            <mxPoint x="787" y="905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-268" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2196F3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="844" />
+              <mxPoint x="187" y="814" />
+              <mxPoint x="235" y="814" />
+              <mxPoint x="235" y="844" />
+              <mxPoint x="427" y="844" />
+              <mxPoint x="427" y="814" />
+              <mxPoint x="475" y="814" />
+              <mxPoint x="475" y="844" />
+              <mxPoint x="667" y="844" />
+              <mxPoint x="667" y="814" />
+              <mxPoint x="715" y="814" />
+              <mxPoint x="715" y="844" />
+            </Array>
+            <mxPoint x="78" y="844" as="sourcePoint" />
+            <mxPoint x="715" y="844" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-274" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="不同通道，使能时刻不同，会引入相位差" vertex="1">
+          <mxGeometry height="30" width="233" x="315" y="646" as="geometry" />
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-275" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="不同通道，使能时刻不同，相位差被消除" vertex="1">
+          <mxGeometry height="30" width="233" x="295" y="998" as="geometry" />
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-276" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="通道1" vertex="1">
+          <mxGeometry height="30" width="60" x="45" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-277" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="通道2" vertex="1">
+          <mxGeometry height="30" width="60" x="47" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-278" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="通道2" vertex="1">
+          <mxGeometry height="30" width="60" x="57" y="936" as="geometry" />
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-279" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="通道1" vertex="1">
+          <mxGeometry height="30" width="60" x="62" y="873" as="geometry" />
+        </mxCell>
+        <mxCell id="539Tyw2YpPUo9ZzME_vN-280" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="同步信号" vertex="1">
+          <mxGeometry height="30" width="60" x="75" y="810" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rdA-hy6PmznIz0YIEXIH" name="第 10 页">
+    <mxGraphModel dx="882" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
