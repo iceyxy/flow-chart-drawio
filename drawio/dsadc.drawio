@@ -4204,7 +4204,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rdA-hy6PmznIz0YIEXIH" name="第 10 页">
-    <mxGraphModel dx="504" dy="283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="840" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4540,14 +4540,20 @@
             <mxPoint x="350" y="788" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PG5NiVnC9wNIMJWpltme-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="正常场景：当前数据与当前时间戳" vertex="1">
-          <mxGeometry height="30" width="210" x="120" y="840" as="geometry" />
+        <mxCell id="PG5NiVnC9wNIMJWpltme-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="正常场景：当前数据与当前时间戳" vertex="1">
+          <mxGeometry height="30" width="210" x="120" y="823" as="geometry" />
         </mxCell>
-        <mxCell id="PG5NiVnC9wNIMJWpltme-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="边界场景1：外部触发在最新vld后2个时钟周期内" vertex="1">
-          <mxGeometry height="30" width="280" x="120" y="862" as="geometry" />
+        <mxCell id="PG5NiVnC9wNIMJWpltme-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="边界场景1：外部触发在最新vld后2个时钟周期内（当前数据）" vertex="1">
+          <mxGeometry height="30" width="340" x="120" y="845" as="geometry" />
         </mxCell>
-        <mxCell id="PG5NiVnC9wNIMJWpltme-92" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="边界场景2：外部触发在最新vld后2个时钟周期内" vertex="1">
-          <mxGeometry height="30" width="280" x="120" y="881" as="geometry" />
+        <mxCell id="PG5NiVnC9wNIMJWpltme-92" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="边界场景2：外部触发在最新vld前2个时钟周期内（上一组数据）" vertex="1">
+          <mxGeometry height="30" width="360" x="120" y="864" as="geometry" />
+        </mxCell>
+        <mxCell id="PG5NiVnC9wNIMJWpltme-94" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="data valid" vertex="1">
+          <mxGeometry height="30" width="60" x="491" y="723" as="geometry" />
+        </mxCell>
+        <mxCell id="PG5NiVnC9wNIMJWpltme-95" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="data" vertex="1">
+          <mxGeometry height="30" width="60" x="478" y="755" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
