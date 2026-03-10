@@ -340,10 +340,101 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zaP-jELlSxWsC9yAgwRE" name="第 3 页">
-    <mxGraphModel dx="1418" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="110" width="174" x="492" y="289.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="130" width="160" x="310" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="110.5" width="168" x="120" y="289" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-10" edge="1" parent="1" source="QhEwIEfrcW2vCuTamlm8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="QhEwIEfrcW2vCuTamlm8-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Scoreboard" vertex="1">
+          <mxGeometry height="40" width="80" x="360" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-14" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="CRC Reference Model" vertex="1">
+          <mxGeometry height="30" width="157" x="125.5" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#ffcc99;strokeColor=#36393d;" value="Sequencer" vertex="1">
+          <mxGeometry height="30" width="69" x="507" y="317.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" value="Driver" vertex="1">
+          <mxGeometry height="30" width="71" x="506" y="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-61" edge="1" parent="1" source="QhEwIEfrcW2vCuTamlm8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="QhEwIEfrcW2vCuTamlm8-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#ffcccc;strokeColor=#36393d;" value="Monitor" vertex="1">
+          <mxGeometry height="30" width="69.5" x="586.5" y="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="reg cfg sequence" vertex="1">
+          <mxGeometry height="30" width="120" x="332" y="317.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="data read sequence" vertex="1">
+          <mxGeometry height="30" width="120" x="332" y="377.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-28" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Reg Seuqnece Pool" vertex="1">
+          <mxGeometry height="30" width="150" x="317" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="APB Interface" vertex="1">
+          <mxGeometry height="20" width="200" x="483" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-39" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="APB Agent" vertex="1">
+          <mxGeometry height="30" width="90" x="537" y="287.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-40" edge="1" parent="1" source="QhEwIEfrcW2vCuTamlm8-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startSize=1;endSize=1;startArrow=classic;startFill=1;" target="QhEwIEfrcW2vCuTamlm8-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-41" edge="1" parent="1" source="QhEwIEfrcW2vCuTamlm8-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="QhEwIEfrcW2vCuTamlm8-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="442" y="280" />
+              <mxPoint x="392" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Register Model" vertex="1">
+          <mxGeometry height="30" width="90" x="397" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Adapter" vertex="1">
+          <mxGeometry height="30" width="90" x="505" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-44" edge="1" parent="1" source="QhEwIEfrcW2vCuTamlm8-39" style="endArrow=classic;html=1;rounded=0;exitX=0.144;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endFill=1;startSize=0;endSize=0;" target="QhEwIEfrcW2vCuTamlm8-43" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="516" y="300" as="sourcePoint" />
+            <mxPoint x="566" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="Configuration" vertex="1">
+          <mxGeometry height="30" width="120" x="144" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="CRC Calc Engine" vertex="1">
+          <mxGeometry height="30" width="120" x="144" y="347" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-62" edge="1" parent="1" source="QhEwIEfrcW2vCuTamlm8-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="QhEwIEfrcW2vCuTamlm8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="CRC Tr&lt;div&gt;Subsrcriber&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="515" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="data steam sequence" vertex="1">
+          <mxGeometry height="30" width="120" x="332" y="347.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. 配置直接通过config_db给到Refm Model&lt;div&gt;2. 建立寄存器模型配置seq分别完成配置与数据下发&lt;/div&gt;&lt;div&gt;3. CRC Tr Subscriber监控总线行为，捕获配置与结果&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. 写byte流seq会将本次写入数据同步给refm，refm需要更新下次初值&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;5. 读结果寄存器行为将会封装一个配置+结果包给到Tr&lt;/div&gt;&lt;/div&gt;&lt;div&gt;6. 支持分段数据流驱动&lt;/div&gt;&lt;div&gt;7. 修改配置发送前需要重新更新refm配置&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="400" x="160" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CRC 验证环境架构" vertex="1">
+          <mxGeometry height="30" width="140" x="332" y="440" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
