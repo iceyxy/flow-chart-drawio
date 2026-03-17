@@ -447,6 +447,30 @@
         <mxCell id="QhEwIEfrcW2vCuTamlm8-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CRC 验证环境架构" vertex="1">
           <mxGeometry height="30" width="140" x="332" y="440" as="geometry" />
         </mxCell>
+        <mxCell id="SC_5_cm7A5yWxtK14CPK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="位宽" vertex="1">
+          <mxGeometry height="22" width="77" x="199" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="SC_5_cm7A5yWxtK14CPK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="数字/种子" vertex="1">
+          <mxGeometry height="22" width="78" x="199" y="661" as="geometry" />
+        </mxCell>
+        <mxCell id="SC_5_cm7A5yWxtK14CPK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="校验使能" vertex="1">
+          <mxGeometry height="22" width="78" x="199" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="SC_5_cm7A5yWxtK14CPK-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="输入转置类型" vertex="1">
+          <mxGeometry height="22" width="79" x="199" y="719" as="geometry" />
+        </mxCell>
+        <mxCell id="SC_5_cm7A5yWxtK14CPK-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="多项式" vertex="1">
+          <mxGeometry height="22" width="79" x="199" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="SC_5_cm7A5yWxtK14CPK-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="DATA" vertex="1">
+          <mxGeometry height="22" width="79" x="199" y="809" as="geometry" />
+        </mxCell>
+        <mxCell id="SC_5_cm7A5yWxtK14CPK-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;ul&gt;&lt;li&gt;监测总线操作&lt;/li&gt;&lt;li&gt;当写入CTRL寄存器时(读操作不关心)&lt;/li&gt;&lt;li&gt;将写入值更新到对应的CFG中(这里是自己解析AHB的Tr还是利用寄存器模型)&lt;/li&gt;&lt;li&gt;当写入多项式寄存器poly时，保存当前多项式到变量&lt;/li&gt;&lt;li&gt;读出多项式寄存器poly不关心。&lt;/li&gt;&lt;li&gt;当写入数据寄存器data时，且CFG中的WAS是1，即种子模式，此时更新seed变量，该变量为初始种子&lt;/li&gt;&lt;li&gt;当写入数据寄存器data时，且CFG中的WAS是0，即数据模式，此时将写入的数据，存到一个动态数组中(作为此轮校验的数据组)&lt;/li&gt;&lt;li&gt;当读取数据寄存器data时，将CFG/当前的动态数组/初始种子/多项式/结果值打包封装为Transaction&lt;/li&gt;&lt;li&gt;注:每次重新配置种子(即使相等)，都需要清除当前的动态数组。&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="30" width="352" x="276" y="719" as="geometry" />
+        </mxCell>
+        <mxCell id="PGlOtItxNfTbJNUiR-yT-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="监控方案：&lt;div&gt;1. 使用原始的AHB monitor广播出来的Transaction&lt;/div&gt;&lt;div&gt;2. 基于寄存器模型的Adapter&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="293" x="183" y="886" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
