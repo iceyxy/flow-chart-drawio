@@ -352,7 +352,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zaP-jELlSxWsC9yAgwRE" name="CRC标准环境">
-    <mxGraphModel dx="978" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="810" dy="450" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -386,14 +386,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="624" y="200" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="55fKX4uNOQ8esaiXXRLB-1" edge="1" parent="1" source="QhEwIEfrcW2vCuTamlm8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="QhEwIEfrcW2vCuTamlm8-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="624" y="230" />
-              <mxPoint x="243" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -447,13 +439,22 @@
         <mxCell id="QhEwIEfrcW2vCuTamlm8-62" edge="1" parent="1" source="QhEwIEfrcW2vCuTamlm8-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="QhEwIEfrcW2vCuTamlm8-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="QCGRmw7osLY-PluJX7OH-1" edge="1" parent="1" source="QhEwIEfrcW2vCuTamlm8-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="QhEwIEfrcW2vCuTamlm8-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="200" />
+              <mxPoint x="484" y="231" />
+              <mxPoint x="243" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QhEwIEfrcW2vCuTamlm8-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="CRC Tr&lt;div&gt;Subsrcriber&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="515" y="180" as="geometry" />
         </mxCell>
         <mxCell id="QhEwIEfrcW2vCuTamlm8-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="data steam sequence" vertex="1">
           <mxGeometry height="30" width="120" x="332" y="347.5" as="geometry" />
         </mxCell>
-        <mxCell id="QhEwIEfrcW2vCuTamlm8-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. 建立寄存器模型配置seq分别完成配置与数据下发&lt;/span&gt;&lt;div&gt;2. CRC Tr Subscriber监控总线行为，捕获配置与结果，读操作触发Tr发送&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. 写byte流seq决定代校验数据&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4.scoreboard比对配置包与校验结果&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5.理论上实际包与期望包的mon要做两个，由不同人写更可靠&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. 建立寄存器模型配置seq分别完成配置与数据下发&lt;/span&gt;&lt;div&gt;2. CRC Tr Subscriber监控总线行为，捕获配置与结果，读操作触发Tr发送&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. 写byte流seq决定代校验数据&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4.scoreboard比对配置包与校验结果&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5.理论上实际包与期望包的解析要做两个，由不同人写更可靠&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="400" x="176" y="488" as="geometry" />
         </mxCell>
         <mxCell id="QhEwIEfrcW2vCuTamlm8-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CRC 验证环境架构" vertex="1">
