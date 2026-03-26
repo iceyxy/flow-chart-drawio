@@ -352,7 +352,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zaP-jELlSxWsC9yAgwRE" name="CRC标准环境">
-    <mxGraphModel dx="1418" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="675" dy="375" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -457,7 +457,7 @@
         <mxCell id="QhEwIEfrcW2vCuTamlm8-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="Data Send Seq" vertex="1">
           <mxGeometry height="30" width="120" x="439" y="338.5" as="geometry" />
         </mxCell>
-        <mxCell id="QhEwIEfrcW2vCuTamlm8-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. 基于寄存器模型管理寄存器，包括配置流与数据流&lt;/span&gt;&lt;div&gt;2. CRC Subscriber监听Vip Mon广播，捕获配置与结果，读数据完成Tr封装&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. byte流seq决定代校验数据，与配置封装到Tr包中&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4.scoreboard比对配置包与校验结果，实际值为寄存器返回值，期望值为CRC Calc Engine计算值&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5.配置与数据通过config_db从用例中传递&lt;/span&gt;&lt;/div&gt;&lt;div&gt;6.不同用例，继承/修改/约束，配置信息或配置流seq&lt;/div&gt;" vertex="1">
+        <mxCell id="QhEwIEfrcW2vCuTamlm8-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. 基于寄存器模型管理寄存器，包括配置流与数据流&lt;/span&gt;&lt;div&gt;2. CRC Subscriber监听Vip Mon广播，捕获配置与结果，读数据完成Tr封装&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. byte流seq决定代校验数据，与配置封装到Tr包中&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4.scoreboard比对配置包与校验结果，实际值为寄存器返回值，期望值为CRC Calc Engine计算值&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5.配置与数据通过config_db从用例中传递&lt;/span&gt;&lt;/div&gt;&lt;div&gt;6.不同用例，继承/修改/约束，配置信息或配置流seq&lt;/div&gt;&lt;div&gt;7.CRC&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Calc Engine(SV)已通过开源Python版本CRC算法一致性检查&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="400" x="210" y="532" as="geometry" />
         </mxCell>
         <mxCell id="QhEwIEfrcW2vCuTamlm8-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CRC 验证环境架构" vertex="1">
