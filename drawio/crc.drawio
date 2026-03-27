@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6" pages="4">
   <diagram name="第 1 页" id="6yn3a_q-mzPCRFFgsDL6">
     <mxGraphModel dx="1182" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -512,6 +512,20 @@
         </mxCell>
         <mxCell id="QCGRmw7osLY-PluJX7OH-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Testcase" vertex="1">
           <mxGeometry height="30" width="60" x="62" y="308.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FLo1Oje4nZHkchGrNvKe" name="第 4 页">
+    <mxGraphModel dx="473" dy="263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1LVvzSUvabLW3t-Rm7qR-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Byte Pool" vertex="1">
+          <mxGeometry height="40" width="120" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1LVvzSUvabLW3t-Rm7qR-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="每次流程：&lt;div&gt;①先peek检查队列的size，如果大于4，那么这一次可取byte数对应1 2 4&lt;/div&gt;&lt;div&gt;②取数，不同的个数可以采用不同的策略&lt;/div&gt;&lt;div&gt;如果只有一个byte，那么只能8bit写&lt;/div&gt;&lt;div&gt;如果有两个byte，可以16bit写或8bit写两次&lt;/div&gt;&lt;div&gt;如果有四个byte，可以32、16+16、16+8+8、8+8+16、8+8+8+8这四种&lt;/div&gt;&lt;div&gt;重复执行，直到size中没有数据了&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="330" x="110" y="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
