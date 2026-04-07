@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="2pTqcaaG6FfFJrm1zldJ">
-    <mxGraphModel dx="1449" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1027" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,6 +163,9 @@
         </mxCell>
         <mxCell id="JLjhhG6QGsWU2LmsOoS5-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Driver" vertex="1">
           <mxGeometry height="30" width="80" x="340" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-142" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="一个agent 一个driver +mon&lt;div&gt;使用cfg+配置决定多少组，每组多少个&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="320" x="320" y="900" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
