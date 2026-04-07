@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="2pTqcaaG6FfFJrm1zldJ">
-    <mxGraphModel>
+    <mxGraphModel dx="481" dy="293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-76" edge="1" parent="1" source="JLjhhG6QGsWU2LmsOoS5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.009;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;startSize=2;endSize=2;" target="JLjhhG6QGsWU2LmsOoS5-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="APB&lt;div&gt;Interface&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="80" x="80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Port&lt;div&gt;IO/Interface&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="200" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Interrupt&lt;div&gt;Detection&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="200" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-77" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=1;startSize=2;endSize=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="160" as="sourcePoint" />
+            <mxPoint x="160" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-78" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.009;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;startSize=2;endSize=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="230" as="sourcePoint" />
+            <mxPoint x="200" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-79" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=1;startSize=2;endSize=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="254.87" as="sourcePoint" />
+            <mxPoint x="160" y="254.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-80" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1;endSize=3;startSize=3;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="200" as="sourcePoint" />
+            <mxPoint x="80" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="APB" vertex="1">
+          <mxGeometry height="20" width="40" x="40" y="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
