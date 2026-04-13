@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="2pTqcaaG6FfFJrm1zldJ">
-    <mxGraphModel dx="725" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="641" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,12 +108,6 @@
         <mxCell id="JLjhhG6QGsWU2LmsOoS5-120" edge="1" parent="1" source="JLjhhG6QGsWU2LmsOoS5-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=1.111;entryDx=0;entryDy=0;entryPerimeter=0;" target="JLjhhG6QGsWU2LmsOoS5-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JLjhhG6QGsWU2LmsOoS5-127" edge="1" parent="1" source="JLjhhG6QGsWU2LmsOoS5-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="JLjhhG6QGsWU2LmsOoS5-126">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JLjhhG6QGsWU2LmsOoS5-124" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="IR Mon" vertex="1">
-          <mxGeometry height="30" width="80" x="720" y="810" as="geometry" />
-        </mxCell>
         <mxCell id="JLjhhG6QGsWU2LmsOoS5-128" edge="1" parent="1" source="JLjhhG6QGsWU2LmsOoS5-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="JLjhhG6QGsWU2LmsOoS5-112">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -121,9 +115,6 @@
               <mxPoint x="700" y="825" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="JLjhhG6QGsWU2LmsOoS5-126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Reg Model" vertex="1">
-          <mxGeometry height="30" width="80" x="720" y="740" as="geometry" />
         </mxCell>
         <mxCell id="JLjhhG6QGsWU2LmsOoS5-132" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GPIO_SUB_ENV" vertex="1">
           <mxGeometry height="30" width="60" x="340" y="650" as="geometry" />
@@ -164,11 +155,20 @@
         <mxCell id="JLjhhG6QGsWU2LmsOoS5-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Driver" vertex="1">
           <mxGeometry height="30" width="80" x="340" y="790" as="geometry" />
         </mxCell>
-        <mxCell id="JLjhhG6QGsWU2LmsOoS5-142" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="一个agent 一个driver +mon&lt;div&gt;使用cfg+配置决定多少组，每组多少个&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="320" x="320" y="900" as="geometry" />
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-142" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;按Pin级最小化封装配置信息，Port层引入使能位控制有效pin参数化&lt;/span&gt;&lt;/li&gt;&lt;li&gt;seqr中做中断监测与抢占逻辑，监测直接利用interface信号&lt;/li&gt;&lt;li&gt;agent是port级，使能控制位通过参数化给出&lt;/li&gt;&lt;li&gt;agent中的driver与mon是port级拆包与合包，参考模型比较器pin级计算与比较&lt;/li&gt;&lt;li&gt;静态配置走寄存器模型，动态配置走内部driver&lt;/li&gt;&lt;li&gt;外部输入变化时，mon捕获并驱动到参考模型&lt;/li&gt;&lt;li&gt;读IO数据寄存器作为触发比对的扳机&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="30" width="420" x="320" y="940" as="geometry" />
         </mxCell>
         <mxCell id="j6j5LnFUT391_5NvzWfg-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是公用的时钟复位" vertex="1">
           <mxGeometry height="30" width="60" x="60" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="zfGH-_8xrdEKwOBzG8_C-6" edge="1" parent="1" source="zfGH-_8xrdEKwOBzG8_C-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="JLjhhG6QGsWU2LmsOoS5-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zfGH-_8xrdEKwOBzG8_C-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Reg Seqr" vertex="1">
+          <mxGeometry height="20" width="80" x="720" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="JLjhhG6QGsWU2LmsOoS5-126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Reg Model" vertex="1">
+          <mxGeometry height="30" width="80" x="720" y="740" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
