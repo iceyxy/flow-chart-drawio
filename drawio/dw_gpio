@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="第 1 页" id="2pTqcaaG6FfFJrm1zldJ">
-    <mxGraphModel dx="721" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,7 +226,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iif01ADpnkn0g_h7uzCA" name="第 2 页">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1797" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -445,6 +445,63 @@
         </mxCell>
         <mxCell id="PQmk4FdYcFT63w7LHzPS-121" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;gpio_int&lt;/span&gt;" vertex="1">
           <mxGeometry height="20" width="120" x="380" y="1016" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="引脚模式" vertex="1">
+          <mxGeometry height="40" width="100" x="43.16999999999999" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="验证功能" vertex="1">
+          <mxGeometry height="40" width="120" x="143.17" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="统一触发源" vertex="1">
+          <mxGeometry height="40" width="140" x="263.16999999999996" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="预期 / 实际 发包时机" vertex="1">
+          <mxGeometry height="40" width="180" x="403.16999999999996" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="检查内容" vertex="1">
+          <mxGeometry height="40" width="200" x="583.17" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输出模式" vertex="1">
+          <mxGeometry height="60" width="100" x="43.16999999999999" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输出电平校验" vertex="1">
+          <mxGeometry height="60" width="120" x="143.17" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="APB写ODR寄存器" vertex="1">
+          <mxGeometry height="60" width="140" x="263.16999999999996" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="一写寄存器，两边都发包" vertex="1">
+          <mxGeometry height="60" width="180" x="403.16999999999996" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="引脚输出 = 寄存器 ODR 配置值" vertex="1">
+          <mxGeometry height="60" width="200" x="583.17" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入模式" vertex="1">
+          <mxGeometry height="60" width="100" x="43.16999999999999" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入读值校验" vertex="1">
+          <mxGeometry height="60" width="120" x="143.17" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="APB 读 IDR 寄存器" vertex="1">
+          <mxGeometry height="60" width="140" x="263.16999999999996" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="一读寄存器，两边都发包" vertex="1">
+          <mxGeometry height="60" width="180" x="403.16999999999996" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="读回值 = 外部输入电平" vertex="1">
+          <mxGeometry height="60" width="200" x="583.17" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="需要断言补充断言检查&lt;div&gt;为了避免Ports直接的串扰，设置一个Scoreboard，全局比较，不是例化4个port&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="9.5" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="转化器&lt;div&gt;输入模式1.每次读结果寄存器都发包&lt;/div&gt;&lt;div&gt;输出模式2.每次输出变化就发包&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="70" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="应该用拉模式&lt;div&gt;当外部输出激励变化时，如果不读结果，不需要这个激励包，此时应该使用拉模式。&lt;/div&gt;&lt;div&gt;当外部捕获到总线读操作时，才向refm索取一个激励包。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="486.83" x="43.17" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="EbAB8bHA_mIk_B4KaBJ7-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="当前方式&lt;div&gt;在refm中识别操作，读操作时主动发包&lt;/div&gt;&lt;div&gt;有点是更直观一点&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="486.83" x="43.16999999999999" y="1870" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
