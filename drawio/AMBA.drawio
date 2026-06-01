@@ -1,9 +1,93 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="第 1 页" id="OCtGDsx3XPb3aeYZ4lfo">
-    <mxGraphModel>
+  <diagram name="AMBA协议发展历程" id="OCtGDsx3XPb3aeYZ4lfo">
+    <mxGraphModel dx="2307" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CQhYh3iXiize49xc8SJB-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" value="Key AMBA Specifications" vertex="1">
+          <mxGeometry height="40" width="300" x="-320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="AMBA generation:" vertex="1">
+          <mxGeometry height="30" width="150" x="170" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="AMBA 2" vertex="1">
+          <mxGeometry height="30" width="80" x="320" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="AMBA 3" vertex="1">
+          <mxGeometry height="30" width="80" x="440" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="AMBA 4" vertex="1">
+          <mxGeometry height="30" width="80" x="580" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="AMBA 5" vertex="1">
+          <mxGeometry height="30" width="80" x="710" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#73D216;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="APB&lt;br&gt;Advanced Peripheral Bus" vertex="1">
+          <mxGeometry height="80" width="300" x="-340" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14" value="System bus for&lt;br&gt;low b/w peripherals" vertex="1">
+          <mxGeometry height="80" width="300" x="-10" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE94F;strokeColor=none;align=center;fontColor=black;fontSize=16;fontStyle=1" value="AHB&lt;br&gt;Adv. High-performance Bus" vertex="1">
+          <mxGeometry height="80" width="300" x="-340" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14" value="AHB supports 64/128 bit, multi-&lt;br&gt;master. AHB-Lite for single masters" vertex="1">
+          <mxGeometry height="80" width="300" x="-10" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A8E0;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="AXI&lt;br&gt;Advanced eXtensible Interface" vertex="1">
+          <mxGeometry height="80" width="300" x="-340" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14" value="AXI supports separate A/D phases, bursts, multiple&lt;br&gt;outstanding addresses, OoO responses" vertex="1">
+          <mxGeometry height="80" width="300" x="-10" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#555753;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="ACE&lt;br&gt;AXI coherency Extensions" vertex="1">
+          <mxGeometry height="80" width="300" x="-340" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14" value="ACE is superset of AXI – brings system-wide&lt;br&gt;coherency across multicore clusters" vertex="1">
+          <mxGeometry height="80" width="300" x="-10" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0B3B6B;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="CHI&lt;br&gt;Coherent Hub Interface" vertex="1">
+          <mxGeometry height="80" width="300" x="-340" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14" value="CHI is a credited coherency protocol,&lt;br&gt;layered architecture for scalability" vertex="1">
+          <mxGeometry height="80" width="300" x="-10" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE94F;strokeColor=none;align=center;fontColor=black;fontSize=16;fontStyle=1" value="AHB" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#73D216;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="APB2" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A8E0;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="AXI3" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE94F;strokeColor=none;align=center;fontColor=black;fontSize=16;fontStyle=1" value="AHB&lt;br&gt;+Lite" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#73D216;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="APB3" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A8E0;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="AXI4&lt;br&gt;+Lite, +Stream" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#555753;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="ACE&lt;br&gt;+Lite" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#73D216;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="APB4" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A8E0;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="AXI5" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE94F;strokeColor=none;align=center;fontColor=black;fontSize=16;fontStyle=1" value="AHB5&lt;br&gt;+Lite" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#555753;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="ACE5&lt;br&gt;+Lite" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="CQhYh3iXiize49xc8SJB-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0B3B6B;strokeColor=none;align=center;fontColor=white;fontSize=16;fontStyle=1" value="CHI" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="380" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
