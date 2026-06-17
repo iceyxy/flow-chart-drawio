@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="7">
   <diagram id="nVHrASJvIrqYEXHxHC4Y" name="GPIO的系统集成">
     <mxGraphModel dx="978" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1826,6 +1826,173 @@
         </mxCell>
         <mxCell id="sZwsBEF0GpgnJxyZoRsX-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="单个IP包：规格理解、寄存器信息、测试点、用例规划、缺陷统计" vertex="1">
           <mxGeometry height="30" width="370" x="120" y="980" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="z6RSQCcK3-VrFREbna0K" name="UVM平台搭建">
+    <mxGraphModel dx="1280" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vVgBvlTySmqWFArXWal0-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Score_Board" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="140" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="210" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;SVT_Tr&lt;/font&gt;" vertex="1">
+          <mxGeometry height="10" width="25" x="132.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;SVT_Tr&lt;/font&gt;" vertex="1">
+          <mxGeometry height="10" width="35" x="197.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-9" edge="1" parent="1" source="vVgBvlTySmqWFArXWal0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vVgBvlTySmqWFArXWal0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="TX mon" vertex="1">
+          <mxGeometry height="40" width="80" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-10" edge="1" parent="1" source="vVgBvlTySmqWFArXWal0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vVgBvlTySmqWFArXWal0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RX mon" vertex="1">
+          <mxGeometry height="40" width="80" x="210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Score_Board" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="140" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="210" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;SVT_Tr&lt;/font&gt;" vertex="1">
+          <mxGeometry height="10" width="25" x="132.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;SVT_Tr&lt;/font&gt;" vertex="1">
+          <mxGeometry height="10" width="35" x="197.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-18" edge="1" parent="1" source="vVgBvlTySmqWFArXWal0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vVgBvlTySmqWFArXWal0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RX mon" vertex="1">
+          <mxGeometry height="40" width="80" x="210" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="data2svt_tr" vertex="1">
+          <mxGeometry height="40" width="80" x="37" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-21" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="105" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-22" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="245" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-24" edge="1" parent="1" source="vVgBvlTySmqWFArXWal0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vVgBvlTySmqWFArXWal0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-23" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="112.5" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Score_Board" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="470" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="540" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;SVT_Tr&lt;/font&gt;" vertex="1">
+          <mxGeometry height="10" width="25" x="462.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;SVT_Tr&lt;/font&gt;" vertex="1">
+          <mxGeometry height="10" width="35" x="527.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-30" edge="1" parent="1" source="vVgBvlTySmqWFArXWal0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vVgBvlTySmqWFArXWal0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="TX mon" vertex="1">
+          <mxGeometry height="40" width="80" x="400" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-32" edge="1" parent="1" source="vVgBvlTySmqWFArXWal0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vVgBvlTySmqWFArXWal0-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="data2svt_tr" vertex="1">
+          <mxGeometry height="40" width="80" x="600" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-34" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="435" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-35" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="595" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="data2svt_tr" vertex="1">
+          <mxGeometry height="40" width="80" x="325" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-38" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="401" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="315" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Bus Subscriber" vertex="1">
+          <mxGeometry height="30" width="77.5" x="207.5" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-43" edge="1" parent="1" source="vVgBvlTySmqWFArXWal0-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vVgBvlTySmqWFArXWal0-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-42" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="280" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AHB Mon" vertex="1">
+          <mxGeometry height="20" width="60" x="105" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-47" edge="1" parent="1" source="vVgBvlTySmqWFArXWal0-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vVgBvlTySmqWFArXWal0-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="APB Mon" vertex="1">
+          <mxGeometry height="20" width="60" x="105" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AXI Mon" vertex="1">
+          <mxGeometry height="20" width="60" x="105" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="data2svt_tr" vertex="1">
+          <mxGeometry height="40" width="80" x="322.5" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-49" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="398.5" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="312.5" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="总线前门流式被动写入" vertex="1">
+          <mxGeometry height="30" width="150" x="460" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tc/Seq中调用write()" vertex="1">
+          <mxGeometry height="30" width="120" x="172.5" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="用例后门静态主动写入" vertex="1">
+          <mxGeometry height="30" width="135" x="465" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="非侵入性Adapter&lt;div&gt;实现自定义的数据类型转IP专属类型&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="277.5" x="210" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="可能是VIP提供的示例" vertex="1">
+          <mxGeometry height="30" width="80" x="270" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="总线解析器，自动写入" vertex="1">
+          <mxGeometry height="30" width="130" x="192.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="把读出结果，调用API函数写入" vertex="1">
+          <mxGeometry height="30" width="185" x="157.5" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="vVgBvlTySmqWFArXWal0-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="可复用" vertex="1">
+          <mxGeometry height="30" width="60" x="332.5" y="555" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
