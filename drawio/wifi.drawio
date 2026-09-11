@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="9">
+<mxfile host="app.diagrams.net" pages="11">
   <diagram name="第 1 页" id="lci1m7WYMJPkJ66AciiN">
     <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1334,6 +1334,80 @@
         <mxCell id="FWo6Uds0MmgNWi20Bi4R-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="真实数据" vertex="1">
           <mxGeometry height="30" width="60" x="613" y="350" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TOCEJua_E6nlDK8S5xhb" name="策略模式在Wif协议中的应用">
+    <mxGraphModel dx="975" dy="590" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-11" edge="1" parent="1" source="sYwYNggRF2CGY7TxAxiE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sYwYNggRF2CGY7TxAxiE-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="336.03" y="229.31" />
+              <mxPoint x="187" y="229.31" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-12" edge="1" parent="1" source="sYwYNggRF2CGY7TxAxiE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sYwYNggRF2CGY7TxAxiE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;wlan_cbf_subcarrier_if&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get_scs_sce(ng,rbw,rus,fbw): scs_sce_t&lt;br&gt;+ calc_N(scs, sce,ng): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calc_Ns(scs,sce,ng,partial_bw):int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get_subcarrier_list(...):subcarrier_list_t&lt;/p&gt;" vertex="1">
+          <mxGeometry height="112" width="412" x="130" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-16" edge="1" parent="1" source="sYwYNggRF2CGY7TxAxiE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sYwYNggRF2CGY7TxAxiE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-9" parent="1" style="html=1;whiteSpace=wrap;" value="cbf_vht_base&lt;div&gt;(20/40/60/80/160)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="131" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-17" edge="1" parent="1" source="sYwYNggRF2CGY7TxAxiE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sYwYNggRF2CGY7TxAxiE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-10" parent="1" style="html=1;whiteSpace=wrap;" value="cbf_ofdma_base&lt;div&gt;(RU-based)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="394" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-13" parent="1" style="html=1;whiteSpace=wrap;" value="cbf_vht&lt;div&gt;(fbw查表)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="131" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-14" parent="1" style="html=1;whiteSpace=wrap;" value="cbf_he&lt;div&gt;(RU查表)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="394" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-15" parent="1" style="html=1;whiteSpace=wrap;" value="cbf_eht&lt;div&gt;(RU+MRU查表)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="580" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sYwYNggRF2CGY7TxAxiE-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="635" y="315.63" />
+            </Array>
+            <mxPoint x="449.26" y="316.35" as="sourcePoint" />
+            <mxPoint x="530" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-20" connectable="0" parent="sYwYNggRF2CGY7TxAxiE-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extend" vertex="1">
+          <mxGeometry relative="1" x="-0.1331" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="虚接口类" vertex="1">
+          <mxGeometry height="30" width="60" x="596" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="基于策略模式的子载波查询" vertex="1">
+          <mxGeometry height="30" width="259" x="274" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="sYwYNggRF2CGY7TxAxiE-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Q1:这里例如partial_bw实际在vht中并没有，能定义吗？&lt;div&gt;Q2:相同的函数，不同版本协议参数输入不一样，怎么应对？能解决吗&lt;/div&gt;&lt;div&gt;A1&amp;amp;A2:接口契约不动；版本之间的数据差异，全部下沉到配置类承载；各个策略子类按需读取配置类里面的字段。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="563" x="118" y="453" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RUnhRhAuTuRDawdVamGo" name="第 11 页">
+    <mxGraphModel dx="1414" dy="855" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
