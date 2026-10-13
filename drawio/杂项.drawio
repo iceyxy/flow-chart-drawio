@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="8">
   <diagram id="nVHrASJvIrqYEXHxHC4Y" name="GPIO的系统集成">
     <mxGraphModel dx="978" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1993,6 +1993,50 @@
         </mxCell>
         <mxCell id="vVgBvlTySmqWFArXWal0-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="可复用" vertex="1">
           <mxGeometry height="30" width="60" x="332.5" y="555" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="slOEf-bSUzriZAtAvNr6" name="第 8 页">
+    <mxGraphModel dx="417" dy="272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l9-VmOxEb6MtY9cj-5h0-3" edge="1" parent="1" source="l9-VmOxEb6MtY9cj-5h0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l9-VmOxEb6MtY9cj-5h0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9-VmOxEb6MtY9cj-5h0-13" edge="1" parent="1" source="l9-VmOxEb6MtY9cj-5h0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l9-VmOxEb6MtY9cj-5h0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9-VmOxEb6MtY9cj-5h0-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="html工具" vertex="1">
+          <mxGeometry height="40" width="120" x="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="l9-VmOxEb6MtY9cj-5h0-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="python脚本" vertex="1">
+          <mxGeometry height="40" width="120" x="240" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="l9-VmOxEb6MtY9cj-5h0-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="可视化、交互式&lt;div&gt;快速验证&lt;/div&gt;&lt;div&gt;人类阅读&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="245" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l9-VmOxEb6MtY9cj-5h0-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="精确度&lt;div&gt;效率、重复性&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="240" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="l9-VmOxEb6MtY9cj-5h0-9" edge="1" parent="1" source="l9-VmOxEb6MtY9cj-5h0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="260" />
+              <mxPoint x="190" y="220" />
+            </Array>
+            <mxPoint x="300" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l9-VmOxEb6MtY9cj-5h0-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AI Claw" vertex="1">
+          <mxGeometry height="40" width="85" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="l9-VmOxEb6MtY9cj-5h0-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="已验证的flow" vertex="1">
+          <mxGeometry height="30" width="120" x="400" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="l9-VmOxEb6MtY9cj-5h0-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.已验证的flow沉淀为html&lt;div&gt;2.html可交互、可快速验证&lt;/div&gt;&lt;div&gt;3.AI精确理解html&lt;/div&gt;&lt;div&gt;4.Al转化html为python(可选)&lt;/div&gt;&lt;div&gt;5.实现高精度的ai实现&lt;/div&gt;&lt;div&gt;html资产、精确度、AI执行层&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="430" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
